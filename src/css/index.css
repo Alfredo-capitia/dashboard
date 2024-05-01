@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url(./data-set.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: url('/iframe/Plus\ Pattern.png') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 68px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35px;
+    padding: 1rem 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    height: 24px;
+}
+
+.logo img {
+    height: 36px;
+    width: 36px;
+}
+
+.container-items {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-logo p {
+    width: 347px;
+    height: 34px;
+    margin-top: 114px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 33.89px;
+    text-align: left;
+}
+
+.set-items {
+    width: 400px;
+    height: 47px;
+    margin-top: 24px;
+    margin-left: 60px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.set-items p{
+    font-size: 14px;
+    line-height: 22.49px;
+    text-align: left;
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+.title{
+    border-radius: 8px 8px 8px 8px;
+    border:  solid;
+    height: 47px;
+    align-items: center;
+    display: flex;
+    padding: 0 0.5rem;
+    border-color: #DEDEE6;
+}
+.title input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    font-weight: 700;
+    color: #737379;
+    padding: 0 0.5rem;
+}
+.title input::placeholder{
+    color: #bbbbc4;
+}
+.title i{
+    color: #cfcfd4;
+}
+.set-itemsy p{
+    font-size: 14px;
+    line-height: 22.49px;
+    text-align: left;
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+.set-itemsy{
+    width: 400px;
+    height: 47px;
+    margin-top: 2.9rem;
+    margin-left: 60px;
+    gap: 0px;
+    opacity: 0px;
+}
+
